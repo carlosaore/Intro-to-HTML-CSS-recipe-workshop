@@ -1,0 +1,43 @@
+body {
+    width: 80%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+.top-container {
+    display: flex;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+.img-container {
+    width:50%;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+table {
+    width: 300px;
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin-top: 10px;
+}
